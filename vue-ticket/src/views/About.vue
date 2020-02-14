@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style>
-  .home{
+  .about{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,9 +40,10 @@ export default {
   .form{
     width: 450px;
     height: 300px;
-    background-color: aliceblue;
+    background-color:red;
     box-shadow: 1px 1px 25px 2px cornsilk;
     text-align: center;
+    align-content: center;
   }
   .title{
     margin-top: 50px;
