@@ -1,14 +1,6 @@
 <template>
   <div class="about">
-    <div class="form">
-      <div class="title">
-        <h1> Ticket Remind </h1>
-      </div>
-      <div class="ticket">
-        <h1>{{ticket}} tickets</h1>
-      </div>
-      <div class="link" @click="goToHome"> back </div>
-    </div>
+    <h1>This is an about page</h1>
   </div>
 </template>
 
