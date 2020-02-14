@@ -1,8 +1,20 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <div class="form">
+      <div class="title">
+        <h1>จำนวนตั๋วคงเหลือ</h1>
+      </div>
+      <div class="ticket">
+        <h1>{{ ticket }} ใบ</h1>
+      </div>
+      <div class="link" @click="goToHome">
+        back
+      </div>
+    </div>
   </div>
 </template>
+
+
 
 <script>
 import {mapGetters} from 'vuex';
@@ -32,7 +44,7 @@ export default {
   .form{
     width: 450px;
     height: 300px;
-    background-color:red;
+    background-color:lightblue;
     box-shadow: 1px 1px 25px 2px cornsilk;
     text-align: center;
     align-content: center;

@@ -2,7 +2,7 @@
   <div class="home">
     <div class="form">
       <div class="title">
-        <h1>TICKET</h1>
+        <h1>BUY TICKET</h1>
       </div>
       <div class="button">
         <button @click="getTicket">
